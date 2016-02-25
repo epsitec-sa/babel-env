@@ -1,0 +1,35 @@
+{
+  "name": "babel-env",
+  "version": "1.0.0",
+  "description": "Development environment for Babel.",
+  "bin": {
+    "babel-env": "./bin/babel-env.js"
+  },
+  "scripts": {
+    "postinstall": "node ./bin/babel-env.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epsitec-sa/babel-env.git"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "Epsitec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epsitec-sa/babel-env/issues"
+  },
+  "homepage": "https://github.com/epsitec-sa/babel-env#readme",
+  "dependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-core": "^6.5.1",
+    "babel-plugin-transform-decorators": "^6.5.0",
+    "babel-plugin-transform-react-display-name": "^6.5.0",
+    "babel-polyfill": "^6.5.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-node5": "^10.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0"
+  }
+}
