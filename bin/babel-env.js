@@ -19,5 +19,5 @@ if (cwd.endsWith (suffix)) {
     newline = '\r\n';
   }
 
-  fs.writeFileSync (path.join (root, '.babelrc'), babelrc.replace (regex, newline));
+  fs.writeFileSync (path.join (root, '.babelrc'), babelrc.toString ().replace (regex, newline));
 }
