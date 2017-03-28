@@ -1,7 +1,7 @@
 # babel-env
 
 The `babel-env` npm package can be used to set up a consistent environment
-for projects using Babel.
+for projects using Babel and running on node.js version 6 (at least).
 
 ```
 npm install --save-dev babel-env
