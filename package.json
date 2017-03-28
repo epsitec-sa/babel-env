@@ -1,6 +1,6 @@
 {
   "name": "babel-env",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "Development environment for Babel.",
   "bin": {
     "babel-env": "./bin/babel-env.js"
@@ -37,6 +37,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^7.2.1",
-    "eslint": "^3.18.0"
+    "eslint": "^3.18.0",
+    "eslint-plugin-react": "^6.10.3"
   }
 }
