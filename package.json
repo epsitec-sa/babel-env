@@ -1,12 +1,12 @@
 {
   "name": "babel-env",
-  "version": "1.6.1",
+  "version": "2.0.0",
   "description": "Development environment for Babel.",
   "bin": {
-    "babel-env": "./bin/babel-env.js"
+    "babel-env": "./bin/babel-env"
   },
   "scripts": {
-    "postinstall": "node ./bin/babel-env.js"
+    "postinstall": "node ./bin/babel-env"
   },
   "repository": {
     "type": "git",
@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "eslint": "^3.19.0",
-    "eslint-plugin-react": "^6.10.3"
+    "eslint-plugin-react": "^6.10.3",
+    "generic-js-env": "^2.0.1"
   }
 }
