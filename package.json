@@ -1,6 +1,6 @@
 {
   "name": "babel-env",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Development environment for Babel.",
   "bin": {
     "babel-env": "./bin/babel-env"
@@ -32,7 +32,7 @@
     "babel-plugin-transform-react-display-name": "^6.23.0",
     "babel-plugin-transform-react-inline-elements": "^6.22.0",
     "babel-polyfill": "^6.23.0",
-    "babel-preset-latest": "^6.24.0",
+    "babel-preset-env": "^1.3.2",
     "babel-preset-node6": "^11.0.0",
     "babel-preset-react": "^6.23.0",
     "babel-preset-stage-0": "^6.22.0"
