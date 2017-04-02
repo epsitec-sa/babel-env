@@ -40,6 +40,6 @@
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-plugin-react": "^6.10.3",
-    "generic-js-env": "^2.0.1"
+    "generic-js-env": "^2.1.0"
   }
 }
