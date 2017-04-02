@@ -1,6 +1,6 @@
 {
   "name": "babel-env",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Development environment for Babel.",
   "bin": {
     "babel-env": "./bin/babel-env"
