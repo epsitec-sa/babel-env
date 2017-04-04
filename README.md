@@ -13,3 +13,21 @@ when updates of `babel-env` are installed.
 
 See also [babel-env-test](https://github.com/epsitec-sa/babel-env-test) for
 an example of how `babel-env` is used.
+
+## Prevent automatic .babelrc overwrite
+
+If you do not want your `.babelrc` to be overwritten by `babel-env`, add
+a comment containing `babel-env-disable`, such as:
+
+```json
+// babel-env-disable
+{
+  "presets": [
+    "es2015"
+  ],
+  "plugins": [
+    "transform-es3-property-literals",
+    "transform-es3-member-expression-literals"
+  ]
+}
+```
