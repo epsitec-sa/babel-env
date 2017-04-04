@@ -2,8 +2,6 @@
 
 /* global require process */
 
-
-
 var fs = require ('fs');
 var path = require ('path');
 
